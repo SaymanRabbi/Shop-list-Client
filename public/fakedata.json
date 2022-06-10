@@ -1,0 +1,16 @@
+[
+  {
+    "Areas": [
+      "Thane",
+      "Pune",
+      "Mumbai Suburban",
+      "Nashik",
+      "Nagpur",
+      "Ahmednagar",
+      "Solapur"
+    ]
+  },
+  {
+    "Category": ["Grocery", "Butcher", "Baker", "Chemist", "Stationery shop"]
+  }
+]
