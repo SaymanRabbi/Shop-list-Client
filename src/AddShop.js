@@ -36,7 +36,7 @@ const AddShop = () => {
     const openingdate =(selectedDate.toString()).slice(0,15);
     const closingdate = (closingdDate.toString().slice(0,15));
     const data = {shopname,area,category,openingdate,closingdate,};
-    if ((/^[A-Za-z]+$/).test(shopname)) {
+    if ((/^[A-Za-z_ ]+$/).test(shopname)) {
       setNameeroor('')
     }
     else {
