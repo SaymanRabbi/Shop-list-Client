@@ -1,12 +1,12 @@
 import AddShop from "./AddShop";
 import "./App.css";
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div>
-      <h2 className="text-center md:text-3xl text-xl my-3 font-semibold">
-        Welcome To ToDo Shop
-      </h2>
+      <ToastContainer />
       <AddShop />
     </div>
   );
